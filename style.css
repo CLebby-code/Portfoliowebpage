@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="styles.css">
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'lato', sans-serif;
+  background-color: #E2C2C6; /* 9C528B 610F7F*/
+  margin: 0;
+}
+
+nav {
+background-color: #9C528B;
+  color: #fff;
+padding: 20px;
+display: flex;
+justify-content: flex-end;
+position: fixed;
+width: 100%;
+}
+
+nav a {
+  color:#fff;
+  margin-left: 20px;
+}
+
+footer {
+  background-color: #9C528B;
+  color: #fff;
+  padding: 10px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
